@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Repositorios\senac\habilitacaocartaoapi\Backup\src\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.Clientela\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SharedKernel\Infrastructure\Sesc.MeuSesc.SharedKernel.Authentication\Sesc.MeuSesc.SharedKernel.Authentication.csproj" />
+    <ProjectReference Include="..\..\Config\Sesc.CrossCutting.Config\Sesc.CrossCutting.Config.csproj" />
+  </ItemGroup>
+</Project>

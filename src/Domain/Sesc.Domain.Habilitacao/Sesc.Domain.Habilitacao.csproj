@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Repositorios\senac\habilitacaocartaoapi\Backup\src\Domain\Sesc.Domain.Habilitacao\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="9.0.0-preview3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CrossCutting\Notification\Sesc.CrossCutting.Notification\Sesc.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.AntiCorruption\Sesc.CrossCutting.ServiceAgents.AntiCorruption.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.AuthServer\Sesc.CrossCutting.ServiceAgents.AuthServer.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.Clientela\Sesc.CrossCutting.ServiceAgents.Clientela.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sharepoint\Sesc.CrossCutting.ServiceAgents.Sharepoint\Sesc.CrossCutting.ServiceAgents.Sharepoint.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\Validation\Sesc.CrossCutting.Validation\Sesc.CrossCutting.Validation.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\Application\Sesc.MeuSesc.SharedKernel.Application\Sesc.MeuSesc.SharedKernel.Application.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

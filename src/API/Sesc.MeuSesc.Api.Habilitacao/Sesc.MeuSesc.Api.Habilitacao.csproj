@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\uploads\00000000-0000-0000-0000-000000000000.jpg" />
+    <Content Remove="wwwroot\uploads\68054fef-179b-4413-ad9c-54d7fc00781b.jpg" />
+    <Content Remove="wwwroot\uploads\79cdbc1e-f64c-4070-ad92-90da286e961c.jpg" />
+    <Content Remove="wwwroot\uploads\8492acc7-def1-4d0b-b3ce-b57d6f630884.jpg" />
+    <Content Remove="wwwroot\uploads\cc2aedd9-76cf-4a0a-988f-6321fbb0d2fb.jpg" />
+    <Content Remove="wwwroot\uploads\resize.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Sesc.Application.ApplicationServices\Sesc.Application.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.AuthServer\Sesc.CrossCutting.ServiceAgents.AuthServer.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.Jasper\Sesc.CrossCutting.ServiceAgents.Jasper.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\Validation\Sesc.CrossCutting.Validation\Sesc.CrossCutting.Validation.csproj" />
+    <ProjectReference Include="..\..\Domain\Sesc.Domain.Habilitacao\Sesc.Domain.Habilitacao.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Sesc.Educacional.Infrastructure.EntityFramework\Sesc.MeuSesc.Infrastructure.EntityFramework.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\Application\Sesc.MeuSesc.SharedKernel.Application\Sesc.MeuSesc.SharedKernel.Application.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Repositorios\senac\habilitacaocartaoapi\Backup\src\SharedKernel\Application\Sesc.MeuSesc.SharedKernel.Application\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="9.0.0-preview3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CrossCutting\Validation\Sesc.CrossCutting.Validation\Sesc.CrossCutting.Validation.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

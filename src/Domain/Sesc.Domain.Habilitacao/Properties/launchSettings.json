@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sesc.Domain.Matricula": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

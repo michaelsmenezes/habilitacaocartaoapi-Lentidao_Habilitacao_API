@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Repositorios\senac\habilitacaocartaoapi\Backup\src\Application\Sesc.Application.ApplicationServices\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.AntiCorruption\Sesc.CrossCutting.ServiceAgents.AntiCorruption.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.AuthServer\Sesc.CrossCutting.ServiceAgents.AuthServer.csproj" />
+    <ProjectReference Include="..\..\CrossCutting\ServiceAgents\Sesc.CrossCutting.ServiceAgents.Clientela\Sesc.CrossCutting.ServiceAgents.Clientela.csproj" />
+    <ProjectReference Include="..\..\Domain\Sesc.Domain.Habilitacao\Sesc.Domain.Habilitacao.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Sesc.Educacional.Infrastructure.EntityFramework\Sesc.MeuSesc.Infrastructure.EntityFramework.csproj" />
+  </ItemGroup>
+</Project>

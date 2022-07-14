@@ -1,0 +1,152 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Repositorios\senac\habilitacaocartaoapi\Backup\src\Infrastructure\Sesc.Educacional.Infrastructure.EntityFramework\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20190916200136_Initial.cs" />
+    <Compile Remove="Migrations\20190916200136_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190917115550_AlterTableCidade.cs" />
+    <Compile Remove="Migrations\20190917115550_AlterTableCidade.Designer.cs" />
+    <Compile Remove="Migrations\20190919125928_AlterTableSolicitacaoMatricula.cs" />
+    <Compile Remove="Migrations\20190919125928_AlterTableSolicitacaoMatricula.Designer.cs" />
+    <Compile Remove="Migrations\20190920205045_TESTE.cs" />
+    <Compile Remove="Migrations\20190920205045_TESTE.Designer.cs" />
+    <Compile Remove="Migrations\20190924122203_CreateParametro.cs" />
+    <Compile Remove="Migrations\20190924122203_CreateParametro.Designer.cs" />
+    <Compile Remove="Migrations\20190924122711_CreateParametro.cs" />
+    <Compile Remove="Migrations\20190924122711_CreateParametro.Designer.cs" />
+    <Compile Remove="Migrations\20190925144027_ChangeTypeColunmCartaoSescSolicitacaoMatricula.cs" />
+    <Compile Remove="Migrations\20190925144027_ChangeTypeColunmCartaoSescSolicitacaoMatricula.Designer.cs" />
+    <Compile Remove="Migrations\20190925195403_AlterColunmTypeTemplateNotificacao2.cs" />
+    <Compile Remove="Migrations\20190925195403_AlterColunmTypeTemplateNotificacao2.Designer.cs" />
+    <Compile Remove="Migrations\20191002114053_Teste.cs" />
+    <Compile Remove="Migrations\20191002114053_Teste.Designer.cs" />
+    <Compile Remove="Migrations\20191002180713_CreateTablePendenciaPagamento.cs" />
+    <Compile Remove="Migrations\20191002180713_CreateTablePendenciaPagamento.Designer.cs" />
+    <Compile Remove="Migrations\20191002181332_CreateTablePendenciaPagamento.cs" />
+    <Compile Remove="Migrations\20191002181332_CreateTablePendenciaPagamento.Designer.cs" />
+    <Compile Remove="Migrations\20191003200000_CreateTableSolicitacaoMatriculaNotificacaoTemplate.cs" />
+    <Compile Remove="Migrations\20191003200000_CreateTableSolicitacaoMatriculaNotificacaoTemplate.Designer.cs" />
+    <Compile Remove="Migrations\20191003200441_CreateTableSolicitacaoMatriculaNotificacaoTemplate.cs" />
+    <Compile Remove="Migrations\20191003200441_CreateTableSolicitacaoMatriculaNotificacaoTemplate.Designer.cs" />
+    <Compile Remove="Migrations\20191003203208_CreateTableSolicitacaoMatriculaNotificacaoTemplate.cs" />
+    <Compile Remove="Migrations\20191003203208_CreateTableSolicitacaoMatriculaNotificacaoTemplate.Designer.cs" />
+    <Compile Remove="Migrations\20191007170301_CreateColunmUsuarioLogado.cs" />
+    <Compile Remove="Migrations\20191007170301_CreateColunmUsuarioLogado.Designer.cs" />
+    <Compile Remove="Migrations\20191007170429_CreateColunmUsuarioLogado.cs" />
+    <Compile Remove="Migrations\20191007170429_CreateColunmUsuarioLogado.Designer.cs" />
+    <Compile Remove="Migrations\20200309180828_Initial.cs" />
+    <Compile Remove="Migrations\20200309180828_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200309181027_Initial.cs" />
+    <Compile Remove="Migrations\20200309181027_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200309181611_Initial.cs" />
+    <Compile Remove="Migrations\20200309181611_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200309181742_Initial.cs" />
+    <Compile Remove="Migrations\20200309181742_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200309184045_TESTE.cs" />
+    <Compile Remove="Migrations\20200309184045_TESTE.Designer.cs" />
+    <Compile Remove="Migrations\20200309193646_Initial.cs" />
+    <Compile Remove="Migrations\20200309193646_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200309200628_Initial.cs" />
+    <Compile Remove="Migrations\20200309200628_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200310125658_SolicitacaoPessoaDadosTitular.cs" />
+    <Compile Remove="Migrations\20200310125658_SolicitacaoPessoaDadosTitular.Designer.cs" />
+    <Compile Remove="Migrations\20200310130740_Initial.cs" />
+    <Compile Remove="Migrations\20200310130740_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200310140920_AddCpfSolicitanteSolicitacao.cs" />
+    <Compile Remove="Migrations\20200310140920_AddCpfSolicitanteSolicitacao.Designer.cs" />
+    <Compile Remove="Migrations\20200311125940_Initial.cs" />
+    <Compile Remove="Migrations\20200311125940_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200311130857_teste.cs" />
+    <Compile Remove="Migrations\20200311130857_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311131325_teste.cs" />
+    <Compile Remove="Migrations\20200311131325_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311131446_teste.cs" />
+    <Compile Remove="Migrations\20200311131446_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311132136_teste.cs" />
+    <Compile Remove="Migrations\20200311132136_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311132345_teste.cs" />
+    <Compile Remove="Migrations\20200311132345_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311133528_teste.cs" />
+    <Compile Remove="Migrations\20200311133528_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311133643_teste.cs" />
+    <Compile Remove="Migrations\20200311133643_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311133835_teste.cs" />
+    <Compile Remove="Migrations\20200311133835_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311134114_teste.cs" />
+    <Compile Remove="Migrations\20200311134114_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311140721_teste.cs" />
+    <Compile Remove="Migrations\20200311140721_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311140931_teste.cs" />
+    <Compile Remove="Migrations\20200311140931_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311143213_teste.cs" />
+    <Compile Remove="Migrations\20200311143213_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311143935_teste.cs" />
+    <Compile Remove="Migrations\20200311143935_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311144325_teste.cs" />
+    <Compile Remove="Migrations\20200311144325_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311145032_teste.cs" />
+    <Compile Remove="Migrations\20200311145032_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311145854_teste.cs" />
+    <Compile Remove="Migrations\20200311145854_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311171724_teste.cs" />
+    <Compile Remove="Migrations\20200311171724_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311171830_teste.cs" />
+    <Compile Remove="Migrations\20200311171830_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311171943_teste.cs" />
+    <Compile Remove="Migrations\20200311171943_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311173522_Initial.cs" />
+    <Compile Remove="Migrations\20200311173522_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200311180541_Initial.cs" />
+    <Compile Remove="Migrations\20200311180541_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200311181002_RemovendoObrigatoriedadeTelefone.cs" />
+    <Compile Remove="Migrations\20200311181002_RemovendoObrigatoriedadeTelefone.Designer.cs" />
+    <Compile Remove="Migrations\20200311181244_Initial.cs" />
+    <Compile Remove="Migrations\20200311181244_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200311203248_teste.cs" />
+    <Compile Remove="Migrations\20200311203248_teste.Designer.cs" />
+    <Compile Remove="Migrations\20200311205158_Initial.cs" />
+    <Compile Remove="Migrations\20200311205158_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200311212012_Initial.cs" />
+    <Compile Remove="Migrations\20200311212012_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200318120438_test.cs" />
+    <Compile Remove="Migrations\20200318120438_test.Designer.cs" />
+    <Compile Remove="Migrations\20200318120643_test.cs" />
+    <Compile Remove="Migrations\20200318120643_test.Designer.cs" />
+    <Compile Remove="Migrations\20200325174412_testeteste.cs" />
+    <Compile Remove="Migrations\20200325174412_testeteste.Designer.cs" />
+    <Compile Remove="Migrations\20200330185109_TESTE.cs" />
+    <Compile Remove="Migrations\20200330185109_TESTE.Designer.cs" />
+    <Compile Remove="Migrations\20200330192449_AlteracaoTabelaAtendimentoHistorico.cs" />
+    <Compile Remove="Migrations\20200330192449_AlteracaoTabelaAtendimentoHistorico.Designer.cs" />
+    <Compile Remove="Migrations\20200401131225_TESTE.cs" />
+    <Compile Remove="Migrations\20200401131225_TESTE.Designer.cs" />
+    <Compile Remove="Migrations\20200401131310_TESTE.cs" />
+    <Compile Remove="Migrations\20200401131310_TESTE.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CrossCutting\Auditing\Sesc.CrossCutting.Auditing\Sesc.CrossCutting.Auditing.csproj" />
+    <ProjectReference Include="..\..\Domain\Sesc.Domain.Habilitacao\Sesc.Domain.Habilitacao.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure\Sesc.MeuSesc.SharedKernel.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
